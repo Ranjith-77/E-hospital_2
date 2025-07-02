@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #3498db;
+  color: #fff;
+  padding: 1em;
+}
+
+nav button {
+  margin: 0.3em;
+  padding: 0.5em 1em;
+  border: none;
+  background: #2980b9;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: #1f618d;
+}
+
+main {
+  padding: 1em;
+}
+
+.section {
+  display: none;
+  background: #fff;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  margin-top: 0;
+}
+
+textarea, input, select {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
